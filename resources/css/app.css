@@ -1,0 +1,123 @@
+#header {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.addfeed_component {
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    border: 1px solid black;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    border-color: rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
+    padding: 10px;
+}
+.addfeed_component button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+input.newfeed {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feed_container {
+    display: block;
+}
+
+.card {
+    min-width: 600px;
+    min-height: auto;
+}
+
+.feed_item_description {
+    border: 0px;
+    width: 100%;
+    display: block;
+}
+.pubDate {
+    display: block;
+    float: right;
+}
+
+.row div.feed_item:last-child hr {
+    display: none;
+}
+
+.selectfeed_component {
+    border: 1px solid black;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    border-color: rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.selectfeed_component button {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.selectfeed_menu_item {
+    border: 1px solid blue;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    border-color: rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.selectfeed_menu_item.active {
+    background-color: lightcyan;
+}
+.selectfeed_menu_item_details {
+    cursor: pointer;
+}
+.selectfeed_menu_item_title {
+    font-size: 110%;
+    margin-bottom: -15px;
+}
+.selectfeed_menu_item_description {
+    margin-top: -15px;
+}
+.selectfeed_menu_item_link {
+    color: teal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.feed_control {
+    float: right;
+    margin-right: 5px;
+    display: block;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0.125);
+    color: black;
+    background-color: lightcyan;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+#feed_control_remove {
+    margin-right: -15px;
+}
+
+.more_button {
+    font-size: 125%;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0.125);
+    margin-bottom: 25px;
+    outline: none !important;
+}
+.more_button:active {
+    background-color: lightgray;
+}
